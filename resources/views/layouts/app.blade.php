@@ -15,6 +15,11 @@
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
+
+        <!-- PWA  -->
+<meta name="theme-color" content="#6777ef"/>
+<link rel="apple-touch-icon" href="{{ asset('logo2.png') }}">
+<link rel="manifest" href="{{ asset('/manifest.json') }}">
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
@@ -31,6 +36,24 @@
             <main>
                 {{ $slot }}
             </main>
+            <script src="{{ asset('/sw.js') }}"></script>
         </div>
+<script src="{{ asset('/sw.js') }}"></script>
+<script>
+   if ("serviceWorker" in navigator) {
+      // Register a service worker hosted at the root of the
+      // site using the default scope.
+      navigator.serviceWorker.register("/sw.js").then(
+      (registration) => {
+         console.log("Service worker registration succeeded:", registration);
+      },
+      (error) => {
+         console.error(`Service worker registration failed: ${error}`);
+      },
+    );
+  } else {
+     console.error("Service workers are not supported.");
+  }
+</script>
     </body>
 </html>

@@ -3,6 +3,10 @@
 
 <head>
     @include('layouts.backend.data.styles')
+    <!-- PWA  -->
+<meta name="theme-color" content="#6777ef"/>
+<link rel="apple-touch-icon" href="{{ asset('logo2.png') }}">
+<link rel="manifest" href="{{ asset('/manifest.json') }}">
 </head>
 
 <body>
@@ -43,6 +47,14 @@
         </div>
     </div>w
     @include('layouts.backend.data.scripts')
+    <script src="{{ asset('/sw.js') }}"></script>
+<script>
+    if (!navigator.serviceWorker.controller) {
+        navigator.serviceWorker.register("/sw.js").then(function (reg) {
+            console.log("Service worker has been registered for scope: " + reg.scope);
+        });
+    }
+</script>
 </body>
 
 </html>

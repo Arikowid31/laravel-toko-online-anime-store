@@ -1,0 +1,27 @@
+{
+    "name": "ChinguSpot",
+    "short_name": "ChinguSpot",
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "description": "Beragam Minuman beralkohol Mulai Dari Anker, Draft, Balihai Semuanya Tersedia Di Chingu Spot.",
+    "display": "standalone",
+    "theme_color": "#f05454",
+    "icons": [
+        
+        {
+            "src": "./logo2.png",
+            "sizes": "144x144",
+            "type": "image/png"
+          },
+          {
+            "src": "./logo2.png",
+            "sizes": "1280x676",
+            "type": "image/png"
+        },
+        {
+            "src": "./logo2.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        }
+    ]
+}

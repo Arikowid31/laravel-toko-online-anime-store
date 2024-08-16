@@ -138,4 +138,5 @@ Route::get('/category/{slug}', [FrontendCategoryController::class,'show'])->name
 
 Route::get('/product/{categoriSlug}/{productSlug}',[FrontendProductController::class,'show'])->name('product.show');
 
+
 require __DIR__ . '/auth.php';
