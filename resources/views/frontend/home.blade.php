@@ -6,10 +6,10 @@
             <div class="row">
                 <div class="col-lg-6 p-0">
                     <div class="categories__item categories__large__item set-bg"
-                        data-setbg="{{ asset('me') }}/img/goku.png">
+                        data-setbg="{{ asset('me') }}/img/banner.png">
                         <div class="categories__text">
-                            <p>Beragam Merchandise Anime Mulai Dari Tshirt, Hoddie, Action Figure Semuanya Tersedia Di Anime
-                                Store.</p>
+                            <p>Beragam Minuman beralkohol Mulai Dari Anker, Draft, Balihai Semuanya Tersedia Di Chingu 
+                            Spot.</p>
                             <a href="#">Jelajahi Sekarang</a>
                         </div>
                     </div>
@@ -23,7 +23,7 @@
                                     <div class="categories__text">
                                         <h4>{{ $category->name }}</h4>
                                         <p>{{ $category->Products()->count() }} item</p>
-                                        <a href="#">Jelajahi</a>
+                                        <a href="{{ url('/category/' . $category->slug) }}">Jelajahi</a>
                                     </div>
                                 </div>
                             </div>
@@ -55,7 +55,7 @@
             </div>
             <div class="row property__gallery">
                 @foreach ($data['new_categories'] as $new_categories2)
-                    @foreach ($new_categories2->Products()->limit(4)->get()
+                    @foreach ($new_categories2->Products()->limit(100)->get()
         as $product)
                         <div class="col-lg-3 col-md-4 col-sm-6 mix {{ $new_categories2->slug }}">
                             @component('components.frontend.product-card')

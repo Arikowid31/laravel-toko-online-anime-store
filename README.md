@@ -1,13 +1,13 @@
 <h1 align="center">Selamat datang di Aplikasi Toko Online Laravel! 👋</h1>
-<img src="https://user-images.githubusercontent.com/61069138/177085248-ff1e8def-d301-4ad3-aea0-5a7416178997.png" >
+<img src="" >
 
 
 <p align="center">Dibuat Menggunakan Framework Laravel Versi 9.</p>
 <div align="center">
 
-[![All Contributors](https://img.shields.io/github/contributors/fikrisuheri/laravel-toko-online-anime-store)](https://github.com/fikrisuheri/laravel-toko-online-anime-store/graphs/contributors)
-![GitHub last commit](https://img.shields.io/github/last-commit/fikrisuheri/laravel-toko-online-anime-store.svg)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/fikrisuheri/laravel-toko-online-anime-store)
+[![All Contributors]
+![GitHub last commit]
+![GitHub code size in bytes]
 </div>
 
 ## DIMOHON UNTUK TIDAK DIPERJUALBELIKAN !
@@ -33,7 +33,7 @@
 1. **Clone Repository**
 
 ```bash
-git clone https://github.com/fikrisuheri/laravel-toko-online-anime-store.git
+git clone 
 cd laravel-toko-online-anime-store
 composer install
 cp .env.example .env
@@ -86,16 +86,16 @@ Contributions, issues and feature requests di persilahkan.
 
 ## Author
 
-- Facebook : <a href="https://web.facebook.com/ahmad.ari.9847/"> FIKRI SUHERI</a>
-- INSTAGRAM : <a href="https://www.instagram.com/fikrisuheri__"> FIKRI SUHERI</a>
+- Facebook : <a href="https://web.facebook.com/"> Immanuel Abel Belare Lirung</a>
+- INSTAGRAM : <a href="https://www.instagram.com/"> Immanuel Abel Belare Lirung</a>
 
 ## Donation
 
-You can support Me On [Saweria](https://saweria.co/fikrisuheri) Or [Traktee](https://trakteer.id/fikri-suheri)
+You can support Me On [Saweria](https://saweria.co/) Or [Traktee](https://trakteer.id/)
 
 ## Preview
 
-![Screenshot 2022-07-04 115800](https://user-images.githubusercontent.com/61069138/177089013-6fc3302f-0daf-4598-9d84-79a709cadfa1.png)
-![Screenshot 2022-07-04 120138](https://user-images.githubusercontent.com/61069138/177089020-91808870-775d-42ad-bc56-41db9d9cee25.png)
-![Screenshot 2022-07-04 120326](https://user-images.githubusercontent.com/61069138/177089026-e700b29a-8120-4f9e-aa8f-3ce76f6ccf54.png)
-![Screenshot 2022-07-04 120307](https://user-images.githubusercontent.com/61069138/177089043-7415b6c6-265f-448b-b67e-3f21face387a.png)
+![Screenshot 2022-07-04 115800]()
+![Screenshot 2022-07-04 120138]()
+![Screenshot 2022-07-04 120326]()
+![Screenshot 2022-07-04 120307]()

@@ -77,10 +77,11 @@ h6 {
 p {
 	font-size: 14px;
 	font-family: "Montserrat", sans-serif;
-	color: #666666;
-	font-weight: 400;
+	color: #ffffff;
+	font-weight: 900;
 	line-height: 24px;
 	margin: 0 0 15px 0;
+	text-shadow: 2px 2px 4px rgb(14, 2, 2); 
 }
 
 img {
@@ -1071,13 +1072,15 @@ ol {
 
 .title-logo {
 	font-family: "Cookie", cursive;
-	color: #111111;
+	color: #921c1c;
 	margin-bottom: 5px;
 }
 
 .categories__text h4 {
-	color: #111111;
-	font-weight: 700;
+	color: #f05454;
+	font-weight: 900;
+	text-decoration: underline;
+	text-shadow: 2px 2px 4px rgb(14, 2, 2); 
 }
 
 .categories__text p {
@@ -1086,12 +1089,13 @@ ol {
 
 .categories__text a {
 	font-size: 14px;
-	color: #111111;
+	color: #ffffff;
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: 900;
 	position: relative;
 	padding: 0 0 3px;
 	display: inline-block;
+	text-shadow: 2px 2px 4px rgb(14, 2, 2); 
 }
 
 .categories__text a:after {
